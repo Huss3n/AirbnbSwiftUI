@@ -11,6 +11,9 @@
 		D7B836792B4416A100E3A0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836782B4416A100E3A0AE /* ContentView.swift */; };
 		D7B8367B2B4416A400E3A0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8367A2B4416A400E3A0AE /* Assets.xcassets */; };
 		D7B8367E2B4416A400E3A0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8367D2B4416A400E3A0AE /* Preview Assets.xcassets */; };
+		D7B836912B441E7C00E3A0AE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836902B441E7C00E3A0AE /* ExploreView.swift */; };
+		D7B836932B441E9900E3A0AE /* ListingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836922B441E9900E3A0AE /* ListingsItemView.swift */; };
+		D7B836952B44244300E3A0AE /* SearchAndFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836942B44244300E3A0AE /* SearchAndFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D7B836782B4416A100E3A0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7B8367A2B4416A400E3A0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B8367D2B4416A400E3A0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7B836902B441E7C00E3A0AE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		D7B836922B441E9900E3A0AE /* ListingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsItemView.swift; sourceTree = "<group>"; };
+		D7B836942B44244300E3A0AE /* SearchAndFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 		D7B836892B44174F00E3A0AE /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				D7B836902B441E7C00E3A0AE /* ExploreView.swift */,
+				D7B836942B44244300E3A0AE /* SearchAndFilter.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 		D7B8368A2B44175700E3A0AE /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				D7B836922B441E9900E3A0AE /* ListingsItemView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -233,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B836952B44244300E3A0AE /* SearchAndFilter.swift in Sources */,
 				D7B836792B4416A100E3A0AE /* ContentView.swift in Sources */,
+				D7B836932B441E9900E3A0AE /* ListingsItemView.swift in Sources */,
+				D7B836912B441E7C00E3A0AE /* ExploreView.swift in Sources */,
 				D7B836772B4416A100E3A0AE /* AirbnbSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
