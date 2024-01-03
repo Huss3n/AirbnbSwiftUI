@@ -11,41 +11,36 @@ struct ListingsItemView: View {
     var body: some View {
         VStack {
             // images
-            TabView {
-                ForEach(0...4, id: \.self) { image in
-                    Rectangle()
-                }
-            }
-            .tabViewStyle(.page)
-            .frame(height: 320)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
+            ListingCorousel()
+                .frame(height: 320)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             // listing details
             HStack(alignment: .top) {
                 // listing name
                 VStack(alignment: .leading) {
-                    Text("Maimi, Florida")
+                    Text("Kileleshwa, Nairobi")
                         .font(.headline)
+                        .foregroundStyle(.black)
                     
-                    Text("12 miles away")
+                    Text("12 km away")
                         .foregroundStyle(.gray)
                     
                     Text("Nov 3-10")
                         .foregroundStyle(.gray)
                     
-                    HStack {
-                        Text("$567")
-                            .font(.headline)
+                    HStack(spacing: 4) {
+                        Text("Kshs 6700")
+                            .fontWeight(.semibold)
                         Text("night")
                     }
+                    .font(.subheadline)
+                    .foregroundStyle(.black)
                 }
                 
                 Spacer()
                 
                 // rating
-                HStack(spacing: 4) {
-                    Image(systemName: "star.fill")
-                    Text("4.98")
-                }
+               Ratings()
             }
             .font(.footnote)
         }

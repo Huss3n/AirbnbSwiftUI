@@ -8,23 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		D7B836772B4416A100E3A0AE /* AirbnbSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836762B4416A100E3A0AE /* AirbnbSwiftUIApp.swift */; };
-		D7B836792B4416A100E3A0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836782B4416A100E3A0AE /* ContentView.swift */; };
 		D7B8367B2B4416A400E3A0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8367A2B4416A400E3A0AE /* Assets.xcassets */; };
 		D7B8367E2B4416A400E3A0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B8367D2B4416A400E3A0AE /* Preview Assets.xcassets */; };
 		D7B836912B441E7C00E3A0AE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836902B441E7C00E3A0AE /* ExploreView.swift */; };
 		D7B836932B441E9900E3A0AE /* ListingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836922B441E9900E3A0AE /* ListingsItemView.swift */; };
 		D7B836952B44244300E3A0AE /* SearchAndFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836942B44244300E3A0AE /* SearchAndFilter.swift */; };
+		D7B836982B442DCC00E3A0AE /* ListingCorousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836972B442DCC00E3A0AE /* ListingCorousel.swift */; };
+		D7B8369A2B442EF800E3A0AE /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836992B442EF800E3A0AE /* Ratings.swift */; };
+		D7B8369C2B442FBC00E3A0AE /* ListingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8369B2B442FBC00E3A0AE /* ListingDetails.swift */; };
+		D7B8369E2B4451CB00E3A0AE /* DestinationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8369D2B4451CB00E3A0AE /* DestinationSearch.swift */; };
+		D7B836A02B4477D800E3A0AE /* PickDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8369F2B4477D800E3A0AE /* PickDate.swift */; };
+		D7B836A22B44807B00E3A0AE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836A12B44807B00E3A0AE /* Profile.swift */; };
+		D7B836A42B44830B00E3A0AE /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836A32B44830B00E3A0AE /* WishList.swift */; };
+		D7B836A62B44840A00E3A0AE /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B836A52B44840A00E3A0AE /* MainTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7B836732B4416A100E3A0AE /* AirbnbSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B836762B4416A100E3A0AE /* AirbnbSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbSwiftUIApp.swift; sourceTree = "<group>"; };
-		D7B836782B4416A100E3A0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7B8367A2B4416A400E3A0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B8367D2B4416A400E3A0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D7B836902B441E7C00E3A0AE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		D7B836922B441E9900E3A0AE /* ListingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsItemView.swift; sourceTree = "<group>"; };
 		D7B836942B44244300E3A0AE /* SearchAndFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilter.swift; sourceTree = "<group>"; };
+		D7B836972B442DCC00E3A0AE /* ListingCorousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCorousel.swift; sourceTree = "<group>"; };
+		D7B836992B442EF800E3A0AE /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		D7B8369B2B442FBC00E3A0AE /* ListingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetails.swift; sourceTree = "<group>"; };
+		D7B8369D2B4451CB00E3A0AE /* DestinationSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearch.swift; sourceTree = "<group>"; };
+		D7B8369F2B4477D800E3A0AE /* PickDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDate.swift; sourceTree = "<group>"; };
+		D7B836A12B44807B00E3A0AE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D7B836A32B44830B00E3A0AE /* WishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		D7B836A52B44840A00E3A0AE /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				D7B836842B44172000E3A0AE /* App */,
+				D7B836962B442DBC00E3A0AE /* Components */,
 				D7B836852B44172400E3A0AE /* Core */,
 				D7B836862B44172900E3A0AE /* Extentions */,
 				D7B836872B44173400E3A0AE /* Models */,
 				D7B836882B44173800E3A0AE /* Utils */,
-				D7B836782B4416A100E3A0AE /* ContentView.swift */,
 				D7B8367A2B4416A400E3A0AE /* Assets.xcassets */,
 				D7B8367C2B4416A400E3A0AE /* Preview Content */,
 			);
@@ -125,6 +139,7 @@
 			children = (
 				D7B836902B441E7C00E3A0AE /* ExploreView.swift */,
 				D7B836942B44244300E3A0AE /* SearchAndFilter.swift */,
+				D7B8369D2B4451CB00E3A0AE /* DestinationSearch.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -133,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				D7B836922B441E9900E3A0AE /* ListingsItemView.swift */,
+				D7B8369B2B442FBC00E3A0AE /* ListingDetails.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -147,6 +163,7 @@
 		D7B8368C2B44176B00E3A0AE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D7B836A12B44807B00E3A0AE /* Profile.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -161,6 +178,7 @@
 		D7B8368E2B44177A00E3A0AE /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D7B836A52B44840A00E3A0AE /* MainTab.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -168,8 +186,19 @@
 		D7B8368F2B44178100E3A0AE /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				D7B836A32B44830B00E3A0AE /* WishList.swift */,
 			);
 			path = WishList;
+			sourceTree = "<group>";
+		};
+		D7B836962B442DBC00E3A0AE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D7B836972B442DCC00E3A0AE /* ListingCorousel.swift */,
+				D7B836992B442EF800E3A0AE /* Ratings.swift */,
+				D7B8369F2B4477D800E3A0AE /* PickDate.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +271,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B836982B442DCC00E3A0AE /* ListingCorousel.swift in Sources */,
 				D7B836952B44244300E3A0AE /* SearchAndFilter.swift in Sources */,
-				D7B836792B4416A100E3A0AE /* ContentView.swift in Sources */,
 				D7B836932B441E9900E3A0AE /* ListingsItemView.swift in Sources */,
 				D7B836912B441E7C00E3A0AE /* ExploreView.swift in Sources */,
 				D7B836772B4416A100E3A0AE /* AirbnbSwiftUIApp.swift in Sources */,
+				D7B836A02B4477D800E3A0AE /* PickDate.swift in Sources */,
+				D7B8369E2B4451CB00E3A0AE /* DestinationSearch.swift in Sources */,
+				D7B836A42B44830B00E3A0AE /* WishList.swift in Sources */,
+				D7B836A62B44840A00E3A0AE /* MainTab.swift in Sources */,
+				D7B836A22B44807B00E3A0AE /* Profile.swift in Sources */,
+				D7B8369A2B442EF800E3A0AE /* Ratings.swift in Sources */,
+				D7B8369C2B442FBC00E3A0AE /* ListingDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
